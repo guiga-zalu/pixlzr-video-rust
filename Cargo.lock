@@ -815,7 +815,9 @@ checksum = "8afb450f006bf6385ca15ef45d71d2288452bc3683ce2e2cacc0d18e4be60b58"
 
 [[package]]
 name = "pixlzr"
-version = "0.2.2"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "eb905e6cee1bb35ec608014aa06b8013a7fb93f247aac86d0c6b029944bcb156"
 dependencies = [
  "anyhow",
  "clap",
@@ -1163,7 +1165,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "video_ops"
+name = "video_pixlzr"
 version = "0.1.0"
 dependencies = [
  "image",
